@@ -12,7 +12,7 @@ return res.send({message : "Hello from the Docker v2"});
 });
 
 app.get("/home",(req,res)=>{
-    return res.render(`<h1>Hello From Docker</h1>`);
+    return res.send(`Hello From Docker`);
 })
 
 
